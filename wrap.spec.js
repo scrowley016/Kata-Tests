@@ -13,9 +13,9 @@ describe('wrap', ()=>{
   })
   it('returns a string', ()=>{
 
-    expect(typeof wrap(input1).to.equal('string'))
-    expect(typeof wrap(input2).to.equal('string'))
-    expect(typeof wrap(input3).to.equal('string'))
+    expect(typeof wrap(input1).to.equal(String))
+    expect(typeof wrap(input2).to.equal(String))
+    expect(typeof wrap(input3).to.equal(String))
   })
   it('returns lines =< 20 characters long', ()=>{
     const textArray = wrap(input2).split('\n');

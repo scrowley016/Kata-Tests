@@ -1,6 +1,10 @@
 
 
-function wrap () {
+function wrap (text, length) {
+    const output=""
+
+
+    return output
 
 }
 
